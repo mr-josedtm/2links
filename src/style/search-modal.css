@@ -1,0 +1,18 @@
+.search-link-group {
+  height: 500px;
+  width: 750px;
+  margin: 20px;
+}
+.search-title {
+  color: var(--white);
+  cursor: pointer;
+}
+
+.search-icon{
+  max-width: 30px;
+  margin-right: 20px;
+}
+
+.search-header{
+  display: flex;
+}

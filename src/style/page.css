@@ -1,0 +1,15 @@
+.page-icon-container {
+  display: flex;
+}
+
+.page-icon {
+  margin: auto 10px;
+  color: var(--green);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.green-icon {
+    color: var(--green);
+}

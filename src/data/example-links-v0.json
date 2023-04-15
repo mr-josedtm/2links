@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "First Page",
+    "folders": [
+      {
+        "id": 1,
+        "name": "Interesting sites!",
+        "links": [
+          {
+            "id": 1,
+            "name": "The Smallest Company",
+            "link": "https://www.thesmallestcompany.com",
+            "icon": "img",
+            "description": "The best blog in the World Wide Web"
+          }
+        ],
+        "notes": ["folder notes splits by ,"]
+      },
+      {
+        "id": 2,
+        "name": "Linkedin Profile",
+        "links": [
+          {
+            "id": 2,
+            "name": "JDTorrano",
+            "link": "https://www.linkedin.com/in/jdtorrano",
+            "icon": "img",
+            "description": "Check my Linkedin profile :)"
+          }
+        ],
+        "notes": ["folder notes splits by ,"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Page Tow",
+    "folders": [
+      {
+        "id": 3,
+        "name": "Awesome internet things",
+        "links": [
+          {
+            "id": 3,
+            "name": "Best song ever",
+            "link": "https://www.youtube.com/watch?v=fNFzfwLM72c",
+            "icon": "img",
+            "description": "One nice song!"
+          },
+          {
+            "id": 4,
+            "name": "My daily routine",
+            "link": "https://media4.giphy.com/media/zOvBKUUEERdNm/200.gif",
+            "icon": "img",
+            "description": "But with less charsima"
+          }
+        ],
+        "notes": ["folder notes splits by ,"]
+      }
+    ]
+  }
+]

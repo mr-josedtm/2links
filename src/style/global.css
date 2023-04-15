@@ -1,0 +1,103 @@
+:root {
+  --backgroundGray: #22231c;
+  --backgroundBlue: #1a2e35;
+  --borderBlue: #445d9c;
+  --white: #ffffff;
+  --green: #48a10d;
+  --blue: #6393cf;
+  --pink: #de2159;
+  --orange: #ff652f;
+  --ligthBlue: #00bcbe;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+p,
+a {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: var(--white);
+}
+
+html,
+body {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  /* background: #ffffff; */
+  background: var(--backgroundGray);
+  height: 100%;
+  margin: 15px;
+}
+
+.global-green-text {
+  color: var(--green);
+}
+
+.global-blue-text {
+  color: var(--blue);
+}
+
+.global-pink-text {
+  color: var(--pink);
+}
+
+.global-white-text {
+  color: var(--white);
+}
+
+.save-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  -webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+  border: none;
+	border-radius: 15px;
+  color: var(--white);
+  background: var(--pink);
+	font-size: 1em;
+	font-weight: bold;
+	margin: 10px;
+	overflow: hidden;
+	padding: 0.875em;
+  cursor: pointer;
+}
+
+.close-thik {
+  background: none;
+  border: none;
+  color: var(--white);
+  text-decoration: none;
+  position: inherit;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.close-thik:after {
+  content: '✖';
+}
+
+
+.modal-send-button {
+  border: none;
+  border-radius: 5px;
+  color:var(--white);
+  margin: 10px;
+  overflow: hidden;
+  padding: 0.5em;
+  cursor: pointer;
+  background-color: black;
+}
+
+.grey {
+  background-color: grey;
+}

@@ -1,0 +1,44 @@
+  .u-input-container {
+    /* width: fit-content; */
+  }
+
+  .input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--white);
+    /* box-sizing: border-box; */
+    /* position: relative; */
+    /* z-index: 9999; */
+    width: 100%;
+    color: var(--white);
+    /* min-height: 30px; */
+;
+  }
+  .input:focus {
+    outline: none;
+  }
+  
+  /* input::-webkit-input-placeholder {
+    color: orange;
+  } */
+  
+  input:focus::-webkit-input-placeholder {
+    color: var(--green);
+  }
+  
+  .input:focus + .underline {
+    transform: scale(1);
+  }
+  
+  .underline {
+    background-color: var(--green);
+    display: block;
+    height: 1.5px;
+    left: 50px;
+    margin-top: -4px;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    width: 100% ;
+  }

@@ -1,0 +1,87 @@
+.uploader-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.uploader-item:nth-child(1) {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.uploader-button {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 10px;
+  overflow: hidden;
+  padding: 0.875em;
+  cursor: pointer;
+}
+
+/* TODO mover el tema de los botones comunes a global y crear variables de COLOR */
+.done {
+  background: #6fc44d;
+}
+
+.clear {
+  background: #c44d4d;
+}
+
+.example {
+  background: var(--white);
+  color: black;
+}
+
+.new-page {
+  background: #00bcbe;
+}
+.uploader-file {
+  background: #00bcbe;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.25em auto;
+  overflow: hidden;
+  padding: 0.875em;
+  position: relative;
+  text-align: center;
+  width: 120px;
+  cursor: pointer;
+}
+.uploader-file:hover,
+.uploader-file:active,
+.uploader-file:focus {
+  background: #00a2a4;
+  cursor: pointer;
+}
+.uploader-file-upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  width: 148px;
+  height: 46px;
+  cursor: pointer;
+}
